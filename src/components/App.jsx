@@ -1,4 +1,4 @@
-// import Filter from './Filter/Filter';
+import Filter from './Filter/Filter';
 import ContactList from './ContactList/ContactList';
 import ContactForm from './ContactForm/ContactForm';
 import { useDispatch } from "react-redux";
@@ -22,7 +22,7 @@ export default function App() {
       <h1>Phonebook</h1>
       <ContactForm />
       <h2>Contacts</h2>
-      {/* <Filter /> */}
+      <Filter />
       <ContactList />
     </div>
   );
