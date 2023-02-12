@@ -3,7 +3,7 @@ import { contactSlice  } from './contactSlice';
 import { filterSlice } from './filterSlice';
 
 const rootReducer = combineReducers({
-    [contactSlice.name]:contactSlice .reducer,
+    [contactSlice.name]:contactSlice.reducer,
     [filterSlice.name]: filterSlice.reducer,
 });
 
