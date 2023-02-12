@@ -1,12 +1,12 @@
 import { combineReducers, configureStore } from '@reduxjs/toolkit';
-import { contactsSlice } from './contactsSlice';
+import { contactSlice  } from './contactSlice';
 import { filterSlice } from './filterSlice';
 
 const rootReducer = combineReducers({
-    [contactsSlice.name]:contactsSlice.reducer,
+    [contactSlice .name]:contactSlice .reducer,
     [filterSlice.name]: filterSlice.reducer,
 });
 
 export const store = configureStore({
-    rootReducer,
-})
+    reducer: rootReducer,
+  });
