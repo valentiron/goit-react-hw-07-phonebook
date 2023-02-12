@@ -1,0 +1,11 @@
+.item {
+    max-width: 400px;
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
+  }
+  
+  .button {
+    margin-left: auto;
+  }
+  
